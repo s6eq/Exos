@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <fieldset class="tete">
+            <legend class="titre">A quel(s) propos ?</legend>
+            <label for="objet">Objet de votre message :</label>
+            <select id="objet" name="objet">
+                <option value="developpement_web">Développement web</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="corp">
+            <legend class="titre">Vos coordonnées :</legend>
+            <label for="prenom">Votre prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Ici votre prénom" required>
+            <label for="nom">Votre nom :</label>
+            <input type="text" id="nom" name="nom" placeholder="Ici votre nom" required>
+            <label for="email">Votre email :</label>
+            <input type="email" id="email" name="email" placeholder="Ici votre email" required>
+            <label for="message">Laissez votre message :</label>
+            <textarea id="message" name="message" placeholder="Ici votre message..." required></textarea>
+        </fieldset>
+
+        <div class="pied">
+            <button type="envoyer">Envoyer</button>
+            <button type="supprimer">Effacer</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
