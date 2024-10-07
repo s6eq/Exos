@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #007BFF;
+}
+
+.base {
+    width: 36rem;
+    height: 36rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tables {
+    width: 100%;
+    height: 100%;
+}
+
+.tables td {
+    width: calc(100% / 20);
+    height: calc(100% / 20);
+}
+
+.bleu {
+    background-color: #007BFF;
+}
+
+.rouge {
+    background-color: #FF0000; 
+}
+
+.marron {
+    background-color: #8B4513;
+}
+
+.beige {
+    background-color: #FFDAB9; 
+}
+
+.jaune {
+    background-color: #FFD700;
+}
+
+.bordeau {
+    background-color: #521b1b;
+}
